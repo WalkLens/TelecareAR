@@ -1,0 +1,92 @@
+using WalkLens_Lab.Interfaces;
+
+using RealityCollective.ServiceFramework.Definitions;
+using RealityCollective.ServiceFramework.Interfaces;
+using RealityCollective.ServiceFramework.Services;
+using System;
+using System.Collections.Generic;
+
+namespace WalkLens_Lab
+{
+    [System.Runtime.InteropServices.Guid("82da0d3c-cff4-459d-9e4a-495d313dfcc9")]
+    public class QRService : BaseServiceWithConstructor, IQRService
+    {
+        public QRService(string name, uint priority, QRServiceProfile profile)
+            : base(name, priority)
+        {
+            // The constructor should be used to gather required properties from the profile (or cache the profile) and to ready any components needed.
+            // Note, during this call, not all services will be registered with the Service Framework, so this should only be used to ready this individual service.
+        }
+		
+	    // Below are the Unity events that are replicated by the Service Framework, simply delete any that are not required.
+        #region MonoBehaviour callbacks
+        /// <inheritdoc />
+        public override void Initialize()
+        {
+            // Initialize is called when the Service Framework first instantiates the service.  ( during MonoBehaviour 'Awake')
+            // This is called AFTER all services have been registered but before the 'Start' call.
+        }
+
+        /// <inheritdoc />
+        public override void Start()
+        {
+            // Start is called when the Service Framework receives the "Start" call on loading of the Scene it is attached to.
+		    // If "Do Not Destroy" is enabled on the Root Service Profile, this is received only once on startup, Else it will occur for each scene load with a Service Framework Instance.
+        }
+
+        /// <inheritdoc />
+        public override void Reset()
+        {
+            // Whenever the Service Framework is forcibly "Reset" whilst running, each service will also receive the "Reset" call to request they reinitialize.
+        }
+
+        /// <inheritdoc />
+        public override void Enable()
+        {
+            // The Unity "Enable" MonoBehaviour event, this is called when the Service Manager Instance receives the Enable Event.
+        }
+
+        /// <inheritdoc />
+        public override void Update()
+        {
+            // The Unity "Update" MonoBehaviour, this is called when the Service Manager Instance receives the Update Event.
+        }
+
+        /// <inheritdoc />
+        public override void LateUpdate()
+        {
+            // The Unity "LateUpdate" MonoBehaviour, this is called when the Service Manager Instance receives the LateUpdate Event.
+        }
+
+        /// <inheritdoc />
+        public override void FixedUpdate()
+        {
+            // The Unity "FixedUpdate" MonoBehaviour, this is called when the Service Manager Instance receives the FixedUpdate Event.
+        }
+
+        /// <inheritdoc />
+        public override void Disable()
+        {
+            // The Unity "Disable" MonoBehaviour, this is called when the Service Manager Instance receives the Disable Event.
+        }
+
+        /// <inheritdoc />
+        public override void Destroy()
+        {
+            // The Unity "Destroy" MonoBehaviour, this is called when the Service Manager Instance receives the Destroy Event.
+        }
+
+        /// <inheritdoc />
+        public override void OnApplicationFocus(bool isFocused)
+        {
+            // The Unity "OnApplicationFocus" MonoBehaviour, this is called when Unity generates the OnFocus event on App start or resume.
+        }
+
+        /// <inheritdoc />
+        public override void OnApplicationPause(bool isPaused)
+        {
+            // The Unity "OnApplicationPause" MonoBehaviour, this is called when Unity generates the OnPause event on App pauses or is about to suspend.
+        }        
+        #endregion MonoBehaviour callbacks
+    }
+}
