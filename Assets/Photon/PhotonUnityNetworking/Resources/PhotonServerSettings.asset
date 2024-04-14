@@ -47,6 +47,8 @@ MonoBehaviour:
   - PunRPC_TogglePlacementHints
   - RPC_Chat
   - RPC_AddChatMessage
+  - RPC_AddHLChatMessage
+  - RPC_AddPCChatMessage
   DisableAutoOpenWizard: 1
   ShowSettings: 0
   DevRegionSetOnce: 1

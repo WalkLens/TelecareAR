@@ -3956,7 +3956,7 @@ GameObject:
   - component: {fileID: 2734228457357633481}
   - component: {fileID: 5619503951122516823}
   m_Layer: 0
-  m_Name: ChattingUI
+  m_Name: ChattingUI(PC)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
