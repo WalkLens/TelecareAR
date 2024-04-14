@@ -33,7 +33,7 @@ public class ChatManager : MonoBehaviourPunCallbacks
     {
         base.OnJoinedRoom();
         m_strUserName = PhotonNetwork.LocalPlayer.NickName;
-        AddChatMessage(m_strUserName + "님 접속");
+        photonview.RPC("RPC_AddChatMessage", RpcTarget.All, m_strUserName + "님 접속");
     }
     public void SetInputReturn()
     {
