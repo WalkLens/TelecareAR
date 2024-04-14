@@ -8,8 +8,9 @@ using TMPro;
 
 public class ChatManagerPC : MonoBehaviourPunCallbacks
 {
-    public GameObject m_Content;
-    public GameObject textBox;
+    public GameObject content_PC;
+    public GameObject content_HL;
+    public GameObject textBox, chatBox;
     public TextMeshProUGUI inputField;
     PhotonView photonview;
     string m_strUserName;
@@ -43,10 +44,18 @@ public class ChatManagerPC : MonoBehaviourPunCallbacks
 
     void AddChatMessage(string message)
     {
-        GameObject goText = Instantiate(textBox, m_Content.transform);
+        GameObject textBoxClone = Instantiate(textBox, content_PC.transform);
 
-        TextMeshProUGUI goText_TMP = goText.GetComponent<TextMeshProUGUI>();
+        TextMeshProUGUI goText_TMP = textBoxClone.GetComponent<TextMeshProUGUI>();
         goText_TMP.text = message;
+
+        GameObject chatBoxClone = Instantiate(chatBox, content_HL.transform);
+
+        GameObject chatBox_Frontplate = chatBoxClone.transform.GetChild(2).gameObject;
+        GameObject chatBox_AnimatedContent = chatBox_Frontplate.transform.GetChild(0).gameObject;
+        GameObject chatBox_Text = chatBox_AnimatedContent.transform.GetChild(1).gameObject;
+
+        chatBox_Text.GetComponent<TextMeshProUGUI>().text = message;
     }
 
     [PunRPC]
