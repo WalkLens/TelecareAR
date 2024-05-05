@@ -17,7 +17,7 @@ public class SpeechToTextController : MonoBehaviour
 
     [Header("Object References")]
     public GameObject terminal;
-    public TextMeshProUGUI outputText;
+    public TMP_InputField outputText;
     public List<ButtonController> buttons;
 
     public delegate void OnSelectRecognitionMode(RecognitionMode selectedMode);
