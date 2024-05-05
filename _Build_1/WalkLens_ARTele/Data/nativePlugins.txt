@@ -1,0 +1,11 @@
+lib_burst_generated.dll
+CoarseRelocUW.dll
+AzureSpatialAnchors.dll
+Microsoft.CognitiveServices.Speech.extension.audio.sys.dll
+mrwebrtc.dll
+Microsoft.CognitiveServices.Speech.extension.kws.dll
+Microsoft.CognitiveServices.Speech.extension.lu.dll
+Microsoft.MixedReality.QR.dll
+
+openxr_loader.dll
+Microsoft.CognitiveServices.Speech.core.dll

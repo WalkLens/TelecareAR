@@ -1,0 +1,18 @@
+<linker>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="MRTK.Tutorials.GettingStarted.ExplodeViewController">
+			<method name="ToggleExplodedView"/>
+		</type>
+		<type fullname="MRTK.Tutorials.GettingStarted.PartAssemblyController">
+			<method name="ResetPlacement"/>
+		</type>
+		<type fullname="MRTK.Tutorials.GettingStarted.PlacementHintsController">
+			<method name="TogglePlacementHints"/>
+		</type>
+	</assembly>
+	<assembly fullname="UnityEngine.CoreModule" ignoreIfMissing="1">
+		<type fullname="UnityEngine.Behaviour">
+			<method name="set_enabled"/>
+		</type>
+	</assembly>
+</linker>
