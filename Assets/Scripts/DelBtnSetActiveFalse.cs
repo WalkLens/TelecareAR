@@ -7,7 +7,7 @@ public class DelBtnSetActiveFalse : MonoBehaviour
     void Start()
     {
         // 5초 후에 DisableGameObject 함수를 호출합니다.
-        Invoke("DisableGameObject", 5f);
+        //Invoke("DisableGameObject", 5f);
     }
 
     void DisableGameObject()

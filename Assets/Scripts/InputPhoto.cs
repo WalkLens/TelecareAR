@@ -17,6 +17,8 @@ public class InputPhoto : MonoBehaviour
 
     public GameObject material;
 
+    public int i = 0; //delete버튼 변수
+
     public void ActiveSelectBtn()
     {
         Transform[] myChildren = parent.GetComponentsInChildren<Transform>();
@@ -51,6 +53,21 @@ public class InputPhoto : MonoBehaviour
     }
 
 
+    public void DelBtnCtrl()
+    {
+        if (i % 2==0)
+        {
+            SelectDelBtn();
+            i++;
+        }
+
+        else
+        {
+            DelBtnFalse();
+            i++;
+        }
+    }
+
     public void SelectDelBtn()
     {
         Transform[] myChildren = parent.GetComponentsInChildren<Transform>();
@@ -69,6 +86,7 @@ public class InputPhoto : MonoBehaviour
                         {
                             print("Delete 인식");
                             subChild.gameObject.SetActive(true);
+                            
 
                         }
                     }
@@ -80,6 +98,34 @@ public class InputPhoto : MonoBehaviour
         }
     }
 
+    public void DelBtnFalse()
+    {
+        Transform[] myChildren = parent.GetComponentsInChildren<Transform>();
+
+        foreach (Transform child in myChildren)
+        {
+            if (child.name == "FrontPlate")
+            {
+
+                if (child.GetComponent<MeshRenderer>().material.name != none.name + " (Instance)")
+                {
+                    foreach (Transform subChild in child)
+                    {
+                        if (subChild.name == "delete")
+                        {
+                            subChild.gameObject.SetActive(false);
+
+                        }
+                    }
+
+                }
+
+
+            }
+
+        }
+
+    }
 
     public void SelectBtnMatChange()
     {
