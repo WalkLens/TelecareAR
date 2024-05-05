@@ -51,6 +51,35 @@ public class InputPhoto : MonoBehaviour
     }
 
 
+    public void SelectDelBtn()
+    {
+        Transform[] myChildren = parent.GetComponentsInChildren<Transform>();
+
+        print("델리트 버튼 실행");
+        foreach (Transform child in myChildren)
+        {
+            if (child.name == "FrontPlate")
+            {
+
+                if (child.GetComponent<MeshRenderer>().material.name != none.name + " (Instance)")
+                {
+                    foreach (Transform subChild in child)
+                    {
+                        if (subChild.name == "delete")
+                        {
+                            print("Delete 인식");
+                            subChild.gameObject.SetActive(true);
+
+                        }
+                    }
+
+                }
+
+
+            }
+        }
+    }
+
 
     public void SelectBtnMatChange()
     {

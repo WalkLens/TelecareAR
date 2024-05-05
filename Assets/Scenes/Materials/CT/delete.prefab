@@ -102,6 +102,8 @@ GameObject:
   - component: {fileID: 8593519341978755608}
   - component: {fileID: 5351429024772893392}
   - component: {fileID: 8425557758341176947}
+  - component: {fileID: 8559975217274174089}
+  - component: {fileID: 2384568594402734365}
   m_Layer: 5
   m_Name: delete
   m_TagString: Untagged
@@ -369,6 +371,33 @@ MonoBehaviour:
   rollOffXYDepth: 3
   rejectZRollOff: 0
   extendSpeed: 0.5
+--- !u!114 &8559975217274174089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2844444336327778505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9b1c20199f2a7f4189ab41eaa582c6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 0}
+  noneMat: {fileID: 0}
+  parent: {fileID: 0}
+--- !u!114 &2384568594402734365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2844444336327778505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48e72d849a38c544d83258a7183fe880, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6094425204386741851
 GameObject:
   m_ObjectHideFlags: 0
