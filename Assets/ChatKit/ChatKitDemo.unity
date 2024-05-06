@@ -169,7 +169,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ChannelsToJoinOnConnect:
   - Region
-  - Guild
   HistoryLengthToFetch: 0
   ChatPanel: {fileID: 1729889887396679730}
   InputFieldChat: {fileID: 1100761460}
