@@ -2257,6 +2257,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6724685164799757377, guid: 0fe5e0c1234707540925517e2a0f2651, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 3df22b68ebf2a42418e2179b733a5de7, type: 2}
+    - target: {fileID: 6724685164799757377, guid: 0fe5e0c1234707540925517e2a0f2651, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 1861525715390409842, guid: 3df22b68ebf2a42418e2179b733a5de7, type: 2}
+    - target: {fileID: 6778491968810553688, guid: 0fe5e0c1234707540925517e2a0f2651, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 3df22b68ebf2a42418e2179b733a5de7, type: 2}
+    - target: {fileID: 6778491968810553688, guid: 0fe5e0c1234707540925517e2a0f2651, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 1861525715390409842, guid: 3df22b68ebf2a42418e2179b733a5de7, type: 2}
     - target: {fileID: 8932656171893411556, guid: 0fe5e0c1234707540925517e2a0f2651, type: 3}
       propertyPath: m_Name
       value: Chating_UI
