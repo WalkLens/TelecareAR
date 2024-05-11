@@ -36,7 +36,7 @@ public class TextureTransfer : MonoBehaviour
         // 타겟 오브젝트에 새 텍스처 설정
         //targetRenderer.material.mainTexture = newTexture;
         //Texture2D tex2D = (tex as Texture2D);
-        Rect rect = new Rect(0, 0, renderTexture.width, renderTexture.height);
+        Rect rect = new Rect(0, 0, newTexture.width, newTexture.height);
         whiteboardImage.GetComponent<Image>().sprite = Sprite.Create(newTexture, rect, new Vector2(0.5f, 0.5f));
     }
 }
