@@ -440,7 +440,11 @@ namespace LylekGames
             Debug.Log("Screen height : " + Screen.height);
             // 스크린샷 캡쳐
             Texture2D screenShot = new Texture2D((int)ourRect.width, (int)ourRect.height, TextureFormat.RGB24, false);
+<<<<<<< HEAD
             screenShot.ReadPixels(new Rect(ourRect.x, ourRect.y - 52.5f, ourRect.width, ourRect.height), 0, 0);
+=======
+            screenShot.ReadPixels(new Rect(ourRect.x , ourRect.y - 89.5f, ourRect.width, ourRect.height), 0, 0);
+>>>>>>> 8c6c72e2a418eb0b545b6867f115de2d42c19609
             screenShot.Apply();
             // Texture2D screenShot = new Texture2D (width, height, TextureFormat.RGB24, false);
             // screenShot.ReadPixels (new Rect(startX, startY, width, height), 0, 0);
