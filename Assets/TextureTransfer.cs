@@ -1,36 +1,42 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+
 
 public class TextureTransfer : MonoBehaviour
 {
-    public Renderer sourceRenderer; // ¼Ò½º MaterialÀÌ º¯°æµÇ°í ÀÖ´Â Mesh Renderer
-    public Renderer targetRenderer; // Å¸°Ù Renderer ¿ÀºêÁ§Æ®
+    public Image whiteboardImage;
+    public Renderer sourceRenderer; // ì†ŒìŠ¤ Materialì´ ë³€ê²½ë˜ê³  ìˆëŠ” Mesh Renderer
+    public Renderer targetRenderer; // íƒ€ê²Ÿ Renderer ì˜¤ë¸Œì íŠ¸
 
-    // ¹öÆ° Å¬¸¯¿¡ ÀÇÇØ È£ÃâµÉ ¸Ş¼­µå
+    // ë²„íŠ¼ í´ë¦­ì— ì˜í•´ í˜¸ì¶œë  ë©”ì„œë“œ
     public void TransferTexture()
     {
-        // ÇöÀç Material¿¡¼­ ÅØ½ºÃ³ °¡Á®¿À±â
+        // í˜„ì¬ Materialì—ì„œ í…ìŠ¤ì²˜ ê°€ì ¸ì˜¤ê¸°
         Texture sourceTexture = sourceRenderer.material.mainTexture;
 
-        // »õ·Î¿î Texture2D »ı¼º
+        // ìƒˆë¡œìš´ Texture2D ìƒì„±
         Texture2D newTexture = new Texture2D(sourceTexture.width, sourceTexture.height, TextureFormat.RGBA32, false);
 
-        // RenderTexture »ı¼º ¹× ¼³Á¤
+        // RenderTexture ìƒì„± ë° ì„¤ì •
         RenderTexture currentRT = RenderTexture.active;
         RenderTexture renderTexture = new RenderTexture(sourceTexture.width, sourceTexture.height, 32);
         Graphics.Blit(sourceTexture, renderTexture);
 
-        // »õ·Î¿î ÅØ½ºÃ³¿¡ º¹»ç
+        // ìƒˆë¡œìš´ í…ìŠ¤ì²˜ì— ë³µì‚¬
         RenderTexture.active = renderTexture;
         newTexture.ReadPixels(new Rect(0, 0, renderTexture.width, renderTexture.height), 0, 0);
         newTexture.Apply();
 
-        // RenderTexture¸¦ ´Ù½Ã ¿ø·¡´ë·Î ¼³Á¤
+        // RenderTextureë¥¼ ë‹¤ì‹œ ì›ë˜ëŒ€ë¡œ ì„¤ì •
         RenderTexture.active = currentRT;
         renderTexture.Release();
 
-        // Å¸°Ù ¿ÀºêÁ§Æ®¿¡ »õ ÅØ½ºÃ³ ¼³Á¤
-        targetRenderer.material.mainTexture = newTexture;
+        // íƒ€ê²Ÿ ì˜¤ë¸Œì íŠ¸ì— ìƒˆ í…ìŠ¤ì²˜ ì„¤ì •
+        //targetRenderer.material.mainTexture = newTexture;
+        //Texture2D tex2D = (tex as Texture2D);
+        Rect rect = new Rect(0, 0, renderTexture.width, renderTexture.height);
+        whiteboardImage.GetComponent<Image>().sprite = Sprite.Create(newTexture, rect, new Vector2(0.5f, 0.5f));
     }
 }

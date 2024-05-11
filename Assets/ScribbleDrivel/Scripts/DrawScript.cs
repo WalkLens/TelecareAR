@@ -160,6 +160,13 @@ namespace LylekGames
                 drawHistory.RemoveAt(drawHistory.Count - 1);
             }
         }
+
+        public void EraseAll()
+        {
+            while(drawHistory.Count > 0){
+                Undo();
+            }
+        }
         public void OnPointerEnter(PointerEventData eventData)
         {
             canDraw = true;
@@ -371,6 +378,10 @@ namespace LylekGames
             {
                 Debug.Log("Image not found.");
             }
+
+            //Reset whiteboard 
+            WhiteBoardController.wbc.whiteboardImage.GetComponent<Image>().sprite = null;
+            EraseAll();
         }
         public void Save(string path = "")
         {
@@ -426,10 +437,10 @@ namespace LylekGames
                 (Camera.main.WorldToScreenPoint(ourCoordinates[2]).x - Camera.main.WorldToScreenPoint(ourCoordinates[0]).x),
                 (Camera.main.WorldToScreenPoint(ourCoordinates[1]).y - Camera.main.WorldToScreenPoint(ourCoordinates[3]).y)
             );
-
+            Debug.Log("It's rect" + ourRect.height);
             // 스크린샷 캡쳐
             Texture2D screenShot = new Texture2D((int)ourRect.width, (int)ourRect.height, TextureFormat.RGB24, false);
-            screenShot.ReadPixels(new Rect(ourRect.x, ourRect.y, ourRect.width, ourRect.height), 0, 0);
+            screenShot.ReadPixels(new Rect(ourRect.x + 1, ourRect.y + 50, ourRect.width, ourRect.height), 0, 0);
             screenShot.Apply();
             // Texture2D screenShot = new Texture2D (width, height, TextureFormat.RGB24, false);
             // screenShot.ReadPixels (new Rect(startX, startY, width, height), 0, 0);
@@ -440,7 +451,7 @@ namespace LylekGames
             string savepath = "Assets/ScribbleDrivel/Resources/" + savePath + saveimgcnt.ToString();
             System.IO.File.WriteAllBytes(savepath + ".png", bytes);
             UnityEditor.AssetDatabase.Refresh();
-
+            
             //Reset canvas space
             // if (worldCan)
             //     canvas.renderMode = RenderMode.WorldSpace;
@@ -452,6 +463,7 @@ namespace LylekGames
             Debug.Log("Image saved.");
 
             Load(savePath + saveimgcnt.ToString());
+            saveimgcnt += 1;
         }
     }
 }

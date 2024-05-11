@@ -456,7 +456,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8164587764558153918, guid: 411e4b966e132304e937075a388dfae2, type: 3}
       propertyPath: m_Name
-      value: Chating(Mic)_UI
+      value: Chating(Mic)_UI_fatal error
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 411e4b966e132304e937075a388dfae2, type: 3}
