@@ -437,7 +437,7 @@ namespace LylekGames
                 (Camera.main.WorldToScreenPoint(ourCoordinates[2]).x - Camera.main.WorldToScreenPoint(ourCoordinates[0]).x),
                 (Camera.main.WorldToScreenPoint(ourCoordinates[1]).y - Camera.main.WorldToScreenPoint(ourCoordinates[3]).y)
             );
-            Debug.Log("It's rect" + ourRect.height);
+            Debug.Log("Screen height : " + Screen.height);
             // 스크린샷 캡쳐
             Texture2D screenShot = new Texture2D((int)ourRect.width, (int)ourRect.height, TextureFormat.RGB24, false);
             screenShot.ReadPixels(new Rect(ourRect.x , ourRect.y - 89.5f, ourRect.width, ourRect.height), 0, 0);
