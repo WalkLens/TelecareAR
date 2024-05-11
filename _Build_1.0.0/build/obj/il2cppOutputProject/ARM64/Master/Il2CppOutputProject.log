@@ -1,0 +1,1952 @@
+﻿  Building GameAssembly.dll with MsvcWinRtToolChain
+  	Msvc Install Version: 17.0
+  	Msvc Install SDK Directory: C:\Program Files (x86)\Windows Kits\10
+  	Msvc Linker Path: C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\bin\HostX64\ARM64\link.exe
+  	Msvc Compiler Path: C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\bin\HostX64\ARM64\cl.exe
+  
+  	Output directory: C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\build\bin\ARM64\Master
+  	Cache directory: C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\build\obj\il2cppOutputProject\ARM64\Master
+  pch-c.c
+  pch-cpp.cpp
+  Il2CppGenericClassTable.c
+  Il2CppGenericAdjustorThunkTable.c
+  mscorlib_CodeGen.c
+  Il2CppCCalculateTypeValues.cpp
+  Il2CppCCalculateFieldValues2.cpp
+  Il2CppCCalculateFieldValues1.cpp
+  Il2CppCCalculateFieldValues.cpp
+  Il2CppCCalculateFieldValues3.cpp
+  Il2CppCCalculateTypeValues1.cpp
+  Il2CppGenericInstDefinitions.c
+  Il2CppInteropDataTable.cpp
+  Il2CppGenericMethodPointerTable.c
+  GenericMethods__5.cpp
+  Il2CppMetadataUsage.c
+  Generics__63.cpp
+  Generics__52.cpp
+  Generics__61.cpp
+  Generics__83.cpp
+  Il2CppTypeDefinitions.c
+  Microsoft.MixedReality.OpenXR.cpp
+  GenericMethods__7.cpp
+  Unity.XR.Interaction.Toolkit__3.cpp
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\Source\il2cppOutput\Unity.XR.Interaction.Toolkit__3.cpp(26725): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  GenericMethods__16.cpp
+  Generics__66.cpp
+  GenericMethods__2.cpp
+  Generics__54.cpp
+  Generics__32.cpp
+  Microsoft.CSharp.cpp
+  Generics__62.cpp
+  Generics__56.cpp
+  Il2CppCCWs__210.cpp
+  Microsoft.WindowsAzure.Storage__5.cpp
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\Source\il2cppOutput\Microsoft.WindowsAzure.Storage__5.cpp(15802): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  GenericMethods__8.cpp
+  GenericMethods__1.cpp
+  Generics__58.cpp
+  Generics__55.cpp
+  Il2CppCCWs__209.cpp
+  Il2CppGenericMethodTable.c
+  GenericMethods__12.cpp
+  Microsoft.WindowsAzure.Storage__3.cpp
+  Il2CppInvokerTable.cpp
+  Generics__47.cpp
+  GenericMethods.cpp
+  Microsoft.WindowsAzure.Storage__2.cpp
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\Source\il2cppOutput\Microsoft.WindowsAzure.Storage__2.cpp(9914): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Generics__34.cpp
+  UnityEngine.UIElementsModule__2.cpp
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\Source\il2cppOutput\UnityEngine.UIElementsModule__2.cpp(19534): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Unity.XR.Interaction.Toolkit__2.cpp
+  Generics__16.cpp
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\Source\il2cppOutput\Generics__16.cpp(32518): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Newtonsoft.Json__4.cpp
+  Generics__60.cpp
+  Generics__48.cpp
+  Unity.XR.Interaction.Toolkit__4.cpp
+  Microsoft.WindowsAzure.Storage.cpp
+  Unity.InputSystem__8.cpp
+  GenericMethods__17.cpp
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\Source\il2cppOutput\GenericMethods__17.cpp(26486): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  GenericMethods__22.cpp
+  Generics__93.cpp
+  Generics__92.cpp
+  Assembly-CSharp__2.cpp
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\Source\il2cppOutput\Assembly-CSharp__2.cpp(14087): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Generics__3.cpp
+  Unity.XR.Interaction.Toolkit__5.cpp
+  Il2CppPCCWMethods.cpp
+  Unity.InputSystem__6.cpp
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\Source\il2cppOutput\Unity.InputSystem__6.cpp(40060): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Unity.InputSystem_CodeGen.c
+  Generics__19.cpp
+  Unity.TextMeshPro__3.cpp
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\Source\il2cppOutput\Unity.TextMeshPro__3.cpp(20333): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Microsoft.WindowsAzure.Storage__4.cpp
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\Source\il2cppOutput\Microsoft.WindowsAzure.Storage__4.cpp(18092): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Generics__57.cpp
+  GenericMethods__18.cpp
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\Source\il2cppOutput\GenericMethods__18.cpp(33833): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  GenericMethods__13.cpp
+  Generics__18.cpp
+  Unity.InputSystem.cpp
+  Generics__44.cpp
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\Source\il2cppOutput\Generics__44.cpp(16713): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Microsoft.WindowsAzure.Storage__1.cpp
+  Unity.InputSystem__4.cpp
+  Unity.XR.Interaction.Toolkit__6.cpp
+  Unity.InputSystem__7.cpp
+  MixedReality.Toolkit.UXCore.cpp
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\Source\il2cppOutput\MixedReality.Toolkit.UXCore.cpp(37316): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Unity.XR.Interaction.Toolkit.cpp
+  System.Core__2.cpp
+  Generics__33.cpp
+  System_CodeGen.c
+  Unity.InputSystem__5.cpp
+  Microsoft.WindowsAzure.Storage__6.cpp
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\Source\il2cppOutput\Microsoft.WindowsAzure.Storage__6.cpp(8521): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Il2CppGenericMethodDefinitions.c
+  MixedReality.Toolkit.Input.cpp
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\Source\il2cppOutput\MixedReality.Toolkit.Input.cpp(36283): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Unity.XR.Interaction.Toolkit__1.cpp
+  System.cpp
+  Unity.InputSystem__2.cpp
+  GenericMethods__4.cpp
+  mscorlib__3.cpp
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\Source\il2cppOutput\mscorlib__3.cpp(15731): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Unity.InputSystem__9.cpp
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\Source\il2cppOutput\Unity.InputSystem__9.cpp(36435): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Generics__20.cpp
+  Generics__91.cpp
+  UnityEngine.CoreModule.cpp
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\Source\il2cppOutput\UnityEngine.CoreModule.cpp(17332): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Unity.XR.OpenXR.cpp
+  GenericMethods__15.cpp
+  Generics__94.cpp
+  System__8.cpp
+  MixedReality.Toolkit.Core.cpp
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\Source\il2cppOutput\MixedReality.Toolkit.Core.cpp(25582): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  GenericMethods__14.cpp
+  System.Core.cpp
+  Generics__35.cpp
+  UnityEngine.UIElementsModule.cpp
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\Source\il2cppOutput\UnityEngine.UIElementsModule.cpp(38594): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Unity.XR.Interaction.Toolkit_CodeGen.c
+  System.Core__1.cpp
+  Generics__2.cpp
+  GenericMethods__20.cpp
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\Source\il2cppOutput\GenericMethods__20.cpp(24521): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Il2CppCCWs__182.cpp
+  GenericMethods__19.cpp
+  System.Net.Http.cpp
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\Source\il2cppOutput\System.Net.Http.cpp(9341): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  GenericMethods__3.cpp
+  Newtonsoft.Json__5.cpp
+  UnityEngine.UIElementsModule__5.cpp
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\Source\il2cppOutput\UnityEngine.UIElementsModule__5.cpp(33115): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  System__9.cpp
+  UnresolvedVirtualCallStubs.cpp
+  Generics__102.cpp
+  System.Core__3.cpp
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int8_t
+          ]
+  C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\Source\il2cppOutput\System.Core__3.cpp(23821): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int8_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int8_t
+          ]
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(37): warning C4305: 'return': 'int'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int8_t
+          ]
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(37): warning C4309: 'return': ��� ���� �߸��ϴ�.
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int16_t
+          ]
+  C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\Source\il2cppOutput\System.Core__3.cpp(23829): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int16_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int16_t
+          ]
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(37): warning C4305: 'return': 'int'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int16_t
+          ]
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\Source\il2cppOutput\System.Core__3.cpp(23845): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+  Unity.InputSystem__10.cpp
+  Generics__17.cpp
+  Newtonsoft.Json.cpp
+  Generics__37.cpp
+  Generics__64.cpp
+  Generics__81.cpp
+  Generics__36.cpp
+  UnityEngine.UIElementsModule__3.cpp
+  Generics__82.cpp
+  System__10.cpp
+  Generics__87.cpp
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\Source\il2cppOutput\Generics__87.cpp(30058): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Generics__88.cpp
+  Generics__13.cpp
+  System.Xml__1.cpp
+  System.Xml__15.cpp
+  Microsoft.WindowsAzure.Storage_CodeGen.c
+  PhotonUnityNetworking.cpp
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\Source\il2cppOutput\PhotonUnityNetworking.cpp(9802): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Generics__98.cpp
+  System.Xml_CodeGen.c
+  mscorlib__17.cpp
+  UnityEngine.UIElementsModule__7.cpp
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\Source\il2cppOutput\UnityEngine.UIElementsModule__7.cpp(15326): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  GenericMethods__21.cpp
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\Source\il2cppOutput\GenericMethods__21.cpp(37611): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Generics__100.cpp
+  GenericMethods__9.cpp
+  Generics__96.cpp
+  UnityEngine.UIElementsModule_CodeGen.c
+  Assembly-CSharp.cpp
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\Source\il2cppOutput\Assembly-CSharp.cpp(11339): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  mscorlib__18.cpp
+  Generics__59.cpp
+  Newtonsoft.Json__6.cpp
+  System.Xml__9.cpp
+  Generics__31.cpp
+  Il2CppCCWs__239.cpp
+  Generics__101.cpp
+  Microsoft.MixedReality.WebRTC.cpp
+  UnityEngine.CoreModule__1.cpp
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\Source\il2cppOutput\UnityEngine.CoreModule__1.cpp(11407): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Generics__5.cpp
+  mscorlib__23.cpp
+  System.Xml__10.cpp
+  MixedReality.Toolkit.SpatialManipulation.cpp
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\Source\il2cppOutput\MixedReality.Toolkit.SpatialManipulation.cpp(31425): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Newtonsoft.Json__1.cpp
+  Generics__99.cpp
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\Source\il2cppOutput\Generics__99.cpp(13109): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Generics__97.cpp
+  Microsoft.CSharp__2.cpp
+  Generics__65.cpp
+  Generics__21.cpp
+  Generics__10.cpp
+  mscorlib__9.cpp
+  Newtonsoft.Json__7.cpp
+  UnityEngine.UIElementsModule__4.cpp
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\Source\il2cppOutput\UnityEngine.UIElementsModule__4.cpp(10248): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  mscorlib__15.cpp
+  Unity.TextMeshPro__4.cpp
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\Source\il2cppOutput\Unity.TextMeshPro__4.cpp(19597): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Generics__9.cpp
+  Unity.TextMeshPro__5.cpp
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\Source\il2cppOutput\Unity.TextMeshPro__5.cpp(16815): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Generics__15.cpp
+  System__5.cpp
+  Generics__67.cpp
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\Source\il2cppOutput\Generics__67.cpp(24039): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Generics__4.cpp
+  Microsoft.MixedReality.GraphicsTools__1.cpp
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\Source\il2cppOutput\Microsoft.MixedReality.GraphicsTools__1.cpp(26503): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Generics__53.cpp
+  UnityEngine.UI.cpp
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\Source\il2cppOutput\UnityEngine.UI.cpp(19962): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  System.Xml__13.cpp
+  Generics__6.cpp
+  Generics.cpp
+  Newtonsoft.Json__3.cpp
+  System__11.cpp
+  Generics__11.cpp
+  GenericMethods__11.cpp
+  UnityEngine.UIElementsModule__1.cpp
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\Source\il2cppOutput\UnityEngine.UIElementsModule__1.cpp(8735): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  System.Xml__6.cpp
+  Unity.InputSystem__1.cpp
+  mscorlib__5.cpp
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\Source\il2cppOutput\mscorlib__5.cpp(9269): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  mscorlib__19.cpp
+  Generics__45.cpp
+  mscorlib__16.cpp
+  Generics__43.cpp
+  PhotonUnityNetworking.Demos.cpp
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\Source\il2cppOutput\PhotonUnityNetworking.Demos.cpp(10612): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Microsoft.CSharp__1.cpp
+  System__12.cpp
+  UnityEngine.CoreModule__2.cpp
+  Generics__8.cpp
+  System__2.cpp
+  UnityEngine.UI__2.cpp
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\Source\il2cppOutput\UnityEngine.UI__2.cpp(5833): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  System__7.cpp
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\Source\il2cppOutput\System__7.cpp(8581): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Generics__12.cpp
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\Source\il2cppOutput\Generics__12.cpp(27225): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  System.Xml__8.cpp
+  Generics__38.cpp
+  mscorlib__8.cpp
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\Source\il2cppOutput\mscorlib__8.cpp(17201): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Generics__7.cpp
+  PhotonRealtime.cpp
+  Newtonsoft.Json__2.cpp
+  Generics__51.cpp
+  mscorlib__6.cpp
+  System.Xml__14.cpp
+  System.Xml__11.cpp
+  UnityEngine.UIElementsModule__8.cpp
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\Source\il2cppOutput\UnityEngine.UIElementsModule__8.cpp(20623): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  System__6.cpp
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\Source\il2cppOutput\System__6.cpp(8496): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  System.Xml__12.cpp
+  Assembly-CSharp__1.cpp
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\Source\il2cppOutput\Assembly-CSharp__1.cpp(11401): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Generics__14.cpp
+  Generics__90.cpp
+  UnityEngine.UIElementsModule__11.cpp
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\Source\il2cppOutput\UnityEngine.UIElementsModule__11.cpp(22335): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  System.Xml__5.cpp
+  UnityEngine.UIElementsModule__9.cpp
+  Il2CppCCWs__181.cpp
+  Photon3Unity3D__1.cpp
+  UnityEngine.UI__3.cpp
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\Source\il2cppOutput\UnityEngine.UI__3.cpp(9906): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Generics__86.cpp
+  System.Xml__2.cpp
+  UnityEngine.TextCoreTextEngineModule__2.cpp
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\Source\il2cppOutput\UnityEngine.TextCoreTextEngineModule__2.cpp(7966): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  mscorlib__7.cpp
+  MixedReality.Toolkit.Input__1.cpp
+  Generics__39.cpp
+  mscorlib__2.cpp
+  Generics__41.cpp
+  mscorlib__14.cpp
+  Generics__105.cpp
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\Source\il2cppOutput\Generics__105.cpp(27305): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Generics__42.cpp
+  mscorlib__12.cpp
+  Microsoft.WindowsAzure.Storage__7.cpp
+  Unity.TextMeshPro__2.cpp
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\Source\il2cppOutput\Unity.TextMeshPro__2.cpp(25571): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Generics__50.cpp
+  UnityEngine.UI__1.cpp
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\Source\il2cppOutput\UnityEngine.UI__1.cpp(30117): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Generics__49.cpp
+  Il2CppCCWs__180.cpp
+  UnityEngine.UIElementsModule__10.cpp
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\Source\il2cppOutput\UnityEngine.UIElementsModule__10.cpp(25488): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Generics__89.cpp
+  mscorlib__22.cpp
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\Source\il2cppOutput\mscorlib__22.cpp(8870): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Il2CppCCWs__214.cpp
+  Newtonsoft.Json_CodeGen.c
+  Generics__95.cpp
+  mscorlib__4.cpp
+  System.Core_CodeGen.c
+  Generics__103.cpp
+  Generics__40.cpp
+  System.Xml__3.cpp
+  System__13.cpp
+  Il2CppCCalculateTypeValues2.cpp
+  mscorlib__13.cpp
+  mscorlib__20.cpp
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\Source\il2cppOutput\mscorlib__20.cpp(5164): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  UnityEngine.UIElementsModule__6.cpp
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\Source\il2cppOutput\UnityEngine.UIElementsModule__6.cpp(8751): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Microsoft.MixedReality.GraphicsTools.cpp
+  Assembly-CSharp__3.cpp
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\Source\il2cppOutput\Assembly-CSharp__3.cpp(11238): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  UnityEngine.IMGUIModule.cpp
+  Unity.XR.CoreUtils.cpp
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\Source\il2cppOutput\Unity.XR.CoreUtils.cpp(23780): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Generics__85.cpp
+  Generics__104.cpp
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\Source\il2cppOutput\Generics__104.cpp(22653): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Generics__106.cpp
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\Source\il2cppOutput\Generics__106.cpp(25590): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Generics__84.cpp
+  System__4.cpp
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\Source\il2cppOutput\System__4.cpp(16128): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Unity.InputSystem__3.cpp
+  mscorlib__11.cpp
+  GenericMethods__6.cpp
+  mscorlib.cpp
+  mscorlib__10.cpp
+  System.Xml__16.cpp
+  PhotonUnityNetworking.Utilities.cpp
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\Source\il2cppOutput\PhotonUnityNetworking.Utilities.cpp(7457): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  System.Xml__7.cpp
+  mscorlib__1.cpp
+  Il2CppCCWs__223.cpp
+  Mono.Security.cpp
+  Il2CppCCWs__211.cpp
+  Generics__27.cpp
+  Il2CppCCWs__208.cpp
+  Photon3Unity3D.cpp
+  Il2CppCCTypeValuesTable.cpp
+  System.Xml__4.cpp
+  Generics__1.cpp
+  GenericMethods__10.cpp
+  System.Xml.cpp
+  Generics__30.cpp
+  Generics__28.cpp
+  System.Numerics.cpp
+  Generics__24.cpp
+  Generics__25.cpp
+  Microsoft.MixedReality.WebRTC.Unity.cpp
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\Source\il2cppOutput\Microsoft.MixedReality.WebRTC.Unity.cpp(18483): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Mono.Security__1.cpp
+  Generics__78.cpp
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\Source\il2cppOutput\Generics__78.cpp(4466): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Generics__80.cpp
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\Source\il2cppOutput\Generics__80.cpp(4807): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Generics__29.cpp
+  PhotonUnityNetworking.Demos__1.cpp
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\Source\il2cppOutput\PhotonUnityNetworking.Demos__1.cpp(7366): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Generics__26.cpp
+  Photon3Unity3D__2.cpp
+  Generics__77.cpp
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\Source\il2cppOutput\Generics__77.cpp(5138): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Generics__70.cpp
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\Source\il2cppOutput\Generics__70.cpp(4225): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Generics__22.cpp
+  Generics__68.cpp
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\Source\il2cppOutput\Generics__68.cpp(4231): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Generics__23.cpp
+  Il2CppCCWs__14.cpp
+  Generics__46.cpp
+  Generics__79.cpp
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\Source\il2cppOutput\Generics__79.cpp(4477): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Generics__72.cpp
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\Source\il2cppOutput\Generics__72.cpp(4695): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Generics__74.cpp
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\Source\il2cppOutput\Generics__74.cpp(4318): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Generics__76.cpp
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\Source\il2cppOutput\Generics__76.cpp(4271): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  UnityEngine.CoreModule_CodeGen.c
+  Il2CppRgctxTable.c
+  mscorlib__24.cpp
+  AzureSpatialAnchors.SDK.Core.Runtime.cpp
+  Unity.InputSystem__11.cpp
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\Source\il2cppOutput\Unity.InputSystem__11.cpp(8347): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Il2CppCCWs__183.cpp
+  Generics__107.cpp
+  RealityCollective.ServiceFramework.cpp
+  Unity.XR.ARFoundation.cpp
+  Microsoft.MixedReality.QR.DotNet.cpp
+  System__3.cpp
+  AzureSpatialAnchors.SDK.Windows.Runtime.cpp
+  Generics__73.cpp
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\Source\il2cppOutput\Generics__73.cpp(4275): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  System__1.cpp
+  Microsoft.MixedReality.GraphicsTools__2.cpp
+  Generics__75.cpp
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\Source\il2cppOutput\Generics__75.cpp(4222): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Il2CppCCWs__19.cpp
+  Generics__71.cpp
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\Source\il2cppOutput\Generics__71.cpp(4284): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Generics__69.cpp
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\Source\il2cppOutput\Generics__69.cpp(4363): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  UnityEngine.UIElementsModule__12.cpp
+  Il2CppCCWs__227.cpp
+  MixedReality.Toolkit.SpatialManipulation__1.cpp
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\Source\il2cppOutput\MixedReality.Toolkit.SpatialManipulation__1.cpp(12937): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Il2CppCCWs__238.cpp
+  Unity.XR.OpenXR__1.cpp
+  Microsoft.CognitiveServices.Speech.csharp.cpp
+  Il2CppCCWs__111.cpp
+  Il2CppCCWs__207.cpp
+  Il2CppCCWs__13.cpp
+  System.Runtime.WindowsRuntime.cpp
+  WindowsRuntimeMetadata.cpp
+  System.Xml.Linq.cpp
+  Il2CppCCWs__167.cpp
+  Il2CppCCWs__230.cpp
+  Il2CppCCWs__228.cpp
+  Il2CppCCWs__217.cpp
+  Il2CppCCWs__225.cpp
+  Il2CppCCWs__234.cpp
+  Il2CppCCWs__226.cpp
+  Il2CppCCFieldValuesTable.cpp
+  Microsoft.CSharp_CodeGen.c
+  Unity.XR.ARSubsystems.cpp
+  Il2CppCCWs__110.cpp
+  MixedReality.Toolkit.UXCore__1.cpp
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\Source\il2cppOutput\MixedReality.Toolkit.UXCore__1.cpp(6284): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  System.Core__4.cpp
+  Il2CppCCWs__222.cpp
+  Il2CppCCWs__168.cpp
+  Il2CppCCWs__216.cpp
+  UnityEngine.AndroidJNIModule.cpp
+  Il2CppCCWs__240.cpp
+  Il2CppCCWs__237.cpp
+  Il2CppCCWs__99.cpp
+  Il2CppCCWs__90.cpp
+  Il2CppCCWs__10.cpp
+  Il2CppCCWs__92.cpp
+  Il2CppCCWs__96.cpp
+  Il2CppCCWs__106.cpp
+  Il2CppCCWs__18.cpp
+  UnityEngine.UI_CodeGen.c
+  Il2CppCCWs__9.cpp
+  Il2CppCCWs__94.cpp
+  Il2CppCCWs__12.cpp
+  I18N.CJK.cpp
+  Il2CppCCWs__97.cpp
+  Il2CppCCWs__107.cpp
+  Il2CppCCWs__91.cpp
+  Il2CppCCWs__93.cpp
+  Il2CppCCWs__68.cpp
+  Il2CppCCWs__263.cpp
+  Il2CppCCWs__177.cpp
+  Il2CppCCWs__98.cpp
+  Il2CppCCWs__231.cpp
+  Il2CppCCWs__173.cpp
+  UnityEngine.TextCoreTextEngineModule__1.cpp
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\Source\il2cppOutput\UnityEngine.TextCoreTextEngineModule__1.cpp(8408): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Il2CppCCWs__95.cpp
+  Unity.TextMeshPro_CodeGen.c
+  I18N.cpp
+  dictionary.c
+  PhotonUnityNetworking__1.cpp
+  PhotonChat.cpp
+  PhotonRealtime__1.cpp
+  Il2CppCCWs__215.cpp
+  UnityEngine.XRModule.cpp
+  Il2CppCCWs.cpp
+  Il2CppCCWs__178.cpp
+  Il2CppCCWs__229.cpp
+  Il2CppCCWs__175.cpp
+  Unity.TextMeshPro__1.cpp
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\Source\il2cppOutput\Unity.TextMeshPro__1.cpp(8210): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Unity.TextMeshPro.cpp
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\Source\il2cppOutput\Unity.TextMeshPro.cpp(8070): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  mscorlib__21.cpp
+  Il2CppCCWs__169.cpp
+  Il2CppCCWs__170.cpp
+  Il2CppCCWs__249.cpp
+  Il2CppCCWs__1.cpp
+  Unity.Burst.cpp
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\Source\il2cppOutput\Unity.Burst.cpp(8908): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Il2CppCCWs__174.cpp
+  Il2CppCCWs__61.cpp
+  Il2CppCCWs__220.cpp
+  Il2CppCCWs__176.cpp
+  Il2CppCCWs__11.cpp
+  Assembly-CSharp_CodeGen.c
+  Il2CppCCWs__64.cpp
+  char-conversions.cpp
+  Il2CppCCWs__67.cpp
+  UnityEngine.TextCoreTextEngineModule__3.cpp
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\Source\il2cppOutput\UnityEngine.TextCoreTextEngineModule__3.cpp(6190): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Il2CppCCWs__66.cpp
+  UnityEngine.TextCoreTextEngineModule.cpp
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\Source\il2cppOutput\UnityEngine.TextCoreTextEngineModule.cpp(6356): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Newtonsoft.Json__8.cpp
+  Il2CppCCWs__206.cpp
+  Il2CppCCWs__219.cpp
+  Il2CppCCWs__199.cpp
+  Il2CppCCWs__233.cpp
+  Il2CppCCWs__205.cpp
+  Il2CppCCWs__166.cpp
+  Il2CppCCWs__242.cpp
+  Il2CppCCWs__165.cpp
+  Il2CppCCWs__80.cpp
+  Il2CppCCWs__62.cpp
+  Il2CppCCWs__262.cpp
+  Il2CppCCWs__204.cpp
+  Il2CppCCWs__108.cpp
+  Il2CppCCWs__201.cpp
+  Il2CppCCWs__179.cpp
+  Il2CppCCWs__65.cpp
+  Unity.Mathematics.cpp
+  Il2CppCCWs__172.cpp
+  Il2CppCCWs__15.cpp
+  Il2CppCCWs__16.cpp
+  Il2CppCCWs__248.cpp
+  Il2CppCCWs__17.cpp
+  Il2CppCCWs__63.cpp
+  Il2CppCCWs__202.cpp
+  Il2CppCCWs__171.cpp
+  Il2CppCCWs__200.cpp
+  Il2CppCCWs__203.cpp
+  Il2CppCCWs__104.cpp
+  UnityEngine.UIElementsNativeModule.cpp
+  MixedReality.Toolkit.Accessibility.cpp
+  Il2CppCCWs__194.cpp
+  I18N.Rare__1.cpp
+  I18N.Rare.cpp
+  MixedReality.Toolkit.Speech.Windows.cpp
+  I18N.Rare__4.cpp
+  Il2CppCCWs__245.cpp
+  I18N.Rare__2.cpp
+  Il2CppCCWs__105.cpp
+  GenericMethods__23.cpp
+  Il2CppCCWs__241.cpp
+  Il2CppCCWs__221.cpp
+  Il2CppCCWs__103.cpp
+  Il2CppCCWs__78.cpp
+  Il2CppCCWs__254.cpp
+  Il2CppCCWs__89.cpp
+  Il2CppCCWs__109.cpp
+  Il2CppCCWs__100.cpp
+  Il2CppCCWs__71.cpp
+  I18N.West.cpp
+  I18N.Rare__3.cpp
+  Il2CppCCWs__76.cpp
+  Il2CppCCWs__69.cpp
+  Il2CppCCWs__72.cpp
+  Il2CppCCWs__79.cpp
+  Microsoft.MixedReality.OpenXR_CodeGen.c
+  Il2CppCCWs__73.cpp
+  Il2CppCCWs__75.cpp
+  Il2CppCCWs__77.cpp
+  Il2CppCCWs__261.cpp
+  Il2CppCCWs__70.cpp
+  Il2CppCCWs__112.cpp
+  Il2CppCCWs__74.cpp
+  Unity.XR.OpenXR_CodeGen.c
+  Photon3Unity3D_CodeGen.c
+  I18N.Other.cpp
+  MixedReality.Toolkit.Core_CodeGen.c
+  MixedReality.Toolkit.SpatialManipulation_CodeGen.c
+  UnityEngine.PhysicsModule.cpp
+  UnityEngine.TextCoreFontEngineModule.cpp
+  MixedReality.Toolkit.Input_CodeGen.c
+  MixedReality.Toolkit.UXCore_CodeGen.c
+  Unity.TextMeshPro__6.cpp
+  I18N.West__1.cpp
+  UnityEngine.UnityWebRequestModule.cpp
+  Microsoft.CSharp__3.cpp
+  MixedReality.Toolkit.Core__1.cpp
+  UnityEngine.AnimationModule.cpp
+  Il2CppCCWs__255.cpp
+  Il2CppCCWs__253.cpp
+  Il2CppCCWs__213.cpp
+  UnityEngine.UIModule.cpp
+  I18N.MidEast.cpp
+  Il2CppCCWs__243.cpp
+  Il2CppCCWs__4.cpp
+  Il2CppCCWs__236.cpp
+  Il2CppCCWs__3.cpp
+  Il2CppCCWs__8.cpp
+  Il2CppCCWs__212.cpp
+  Il2CppCCWs__264.cpp
+  Il2CppCCWs__235.cpp
+  Il2CppCCWs__113.cpp
+  Il2CppCCWs__193.cpp
+  UnityEngine.IMGUIModule__1.cpp
+  Il2CppCCWs__7.cpp
+  Il2CppCCWs__5.cpp
+  Il2CppCCWs__6.cpp
+  Il2CppCCWs__257.cpp
+  PhotonUnityNetworking.Demos_CodeGen.c
+  Microsoft.MixedReality.WebRTC_CodeGen.c
+  Microsoft.MixedReality.GraphicsTools_CodeGen.c
+  System.Net.Http_CodeGen.c
+  Unity.XR.CoreUtils_CodeGen.c
+  Il2CppCCWs__164.cpp
+  UnityEngine.SubsystemsModule.cpp
+  Il2CppCCWs__252.cpp
+  Unity.XR.Management.cpp
+  UnityEngine.Physics2DModule.cpp
+  RealityCollective.Utilities.cpp
+  UnityEngine.TextRenderingModule.cpp
+  Il2CppCCWs__258.cpp
+  Il2CppCCWs__244.cpp
+  Il2CppCCWs__188.cpp
+  PhotonRealtime_CodeGen.c
+  Il2CppCCWs__117.cpp
+  Il2CppCCWs__116.cpp
+  Il2CppCCWs__224.cpp
+  Il2CppCCWs__102.cpp
+  Il2CppCCWs__192.cpp
+  Il2CppCCWs__186.cpp
+  Il2CppCCWs__247.cpp
+  Il2CppCCWs__218.cpp
+  Il2CppCCWs__60.cpp
+  Il2CppCCWs__187.cpp
+  Il2CppCCWs__185.cpp
+  Il2CppCCWs__190.cpp
+  UnityEngine.TerrainModule.cpp
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\Source\il2cppOutput\UnityEngine.TerrainModule.cpp(3796): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Il2CppCCWs__189.cpp
+  Il2CppCCWs__191.cpp
+  Il2CppCCWs__184.cpp
+  UnityEngine.InputLegacyModule.cpp
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4305: 'return': '__int64'���� 'T'(��)�� �߸��ϴ�.
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\Source\il2cppOutput\UnityEngine.InputLegacyModule.cpp(2078): note: �����ϵǴ� �Լ� ���ø� �ν��Ͻ�ȭ 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)'�� ���� ������ Ȯ���ϼ���.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(35): warning C4309: 'return': ��� ���� �߸��ϴ�.
+  Il2CppCCWs__251.cpp
+  Il2CppCCWs__195.cpp
+  WindowsRuntimeMetadata_CodeGen.c
+  PhotonUnityNetworking_CodeGen.c
+  Il2CppCCWs__135.cpp
+  dictionary_hash.c
+  Il2CppCCWs__81.cpp
+  UnityEngine.TextCoreTextEngineModule_CodeGen.c
+  UnityEngine.IMGUIModule_CodeGen.c
+  Mono.Security_CodeGen.c
+  Il2CppCCWs__134.cpp
+  Il2CppCCWs__196.cpp
+  Il2CppCCWs__250.cpp
+  MixedReality.Toolkit.Diagnostics.cpp
+  UnityEngine.SpatialTracking.cpp
+  Il2CppCCWs__136.cpp
+  Il2CppCCWs__119.cpp
+  Il2CppCCWs__120.cpp
+  Il2CppCCWs__145.cpp
+  Il2CppCCWs__133.cpp
+  UnityEngine.AudioModule.cpp
+  Il2CppCCWs__151.cpp
+  Unity.XR.OpenXR.Features.MockRuntime.cpp
+  Il2CppCCWs__149.cpp
+  Il2CppCCWs__115.cpp
+  Il2CppCCWs__150.cpp
+  Il2CppCCWs__148.cpp
+  Il2CppCCWs__156.cpp
+  Il2CppCCWs__144.cpp
+  Il2CppCCWs__114.cpp
+  Il2CppCCWs__139.cpp
+  Il2CppCCWs__124.cpp
+  Il2CppCCWs__198.cpp
+  Il2CppCCWs__197.cpp
+  AzureSpatialAnchors.SDK.Windows.Runtime_CodeGen.c
+  System.Runtime.WindowsRuntime_CodeGen.c
+  RealityCollective.ServiceFramework_CodeGen.c
+  UnityEngine.SharedInternalsModule.cpp
+  Il2CppCCWs__122.cpp
+  Unity.XR.ARSubsystems_CodeGen.c
+  Il2CppCCWs__121.cpp
+  Il2CppCCWs__123.cpp
+  Unity.XR.ARFoundation_CodeGen.c
+  UnityEngine.TilemapModule.cpp
+  Il2CppCCWs__152.cpp
+  Il2CppCCWs__125.cpp
+  Il2CppCCWs__153.cpp
+  Il2CppCCWs__232.cpp
+  Il2CppCCWs__118.cpp
+  Il2CppGenericComDefinitions.cpp
+  Il2CppCCWs__137.cpp
+  Il2CppCCWs__143.cpp
+  Il2CppCCWs__158.cpp
+  Il2CppCCWs__127.cpp
+  Il2CppCCWs__142.cpp
+  Il2CppCCWs__159.cpp
+  Il2CppCCWs__141.cpp
+  Il2CppCCWs__155.cpp
+  Il2CppCCWs__138.cpp
+  Il2CppCCWs__140.cpp
+  Il2CppCCWs__147.cpp
+  Il2CppCCWs__157.cpp
+  Il2CppCCWs__162.cpp
+  Il2CppCCWs__126.cpp
+  Il2CppCCWs__161.cpp
+  Il2CppCCWs__259.cpp
+  Il2CppCCWs__146.cpp
+  Il2CppCCWs__154.cpp
+  Il2CppCCWs__160.cpp
+  Il2CppCCWs__129.cpp
+  UnityEngine.UIElementsNativeModule_CodeGen.c
+  I18N.Rare__5.cpp
+  System.Xml.Linq_CodeGen.c
+  Il2CppCCWs__163.cpp
+  Il2CppCCWs__131.cpp
+  __Generated_CodeGen.c
+  Il2CppCCWs__101.cpp
+  Microsoft.MixedReality.WebRTC.Unity_CodeGen.c
+  Microsoft.MixedReality.QR.DotNet_CodeGen.c
+  UnityEngine.UnityAnalyticsModule.cpp
+  PhotonUnityNetworking.Utilities_CodeGen.c
+  I18N.Rare_CodeGen.c
+  UnityEngine.AndroidJNIModule_CodeGen.c
+  AzureSpatialAnchors.SDK.Core.Runtime_CodeGen.c
+  Microsoft.CognitiveServices.Speech.csharp_CodeGen.c
+  System.Numerics_CodeGen.c
+  __Generated.cpp
+  Photon3Unity3D__3.cpp
+  Il2CppCCWs__256.cpp
+  Il2CppCCWs__45.cpp
+  UnityEngine.VFXModule.cpp
+  Il2CppCCWs__29.cpp
+  Il2CppCCWs__130.cpp
+  Il2CppCCWs__37.cpp
+  Il2CppCCWs__246.cpp
+  Il2CppCCWs__22.cpp
+  Il2CppCCWs__128.cpp
+  Il2CppCCWs__132.cpp
+  Il2CppCCWs__2.cpp
+  deflate.c
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\external\zlib\deflate.c(1915): warning C4244: '=': 'ush'���� 'uchf'(��)�� ��ȯ�ϸ鼭 �����Ͱ� �սǵ� �� �ֽ��ϴ�.
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\external\zlib\deflate.c(2040): warning C4244: '=': 'ush'���� 'uchf'(��)�� ��ȯ�ϸ鼭 �����Ͱ� �սǵ� �� �ֽ��ϴ�.
+C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\Il2CppOutputProject\IL2CPP\external\zlib\deflate.c(2150): warning C4244: '=': 'ush'���� 'uchf'(��)�� ��ȯ�ϸ鼭 �����Ͱ� �սǵ� �� �ֽ��ϴ�.
+  Il2CppCCWs__36.cpp
+  UnityEngine.PhysicsModule_CodeGen.c
+  UnityEngine.VideoModule.cpp
+  I18N.CJK_CodeGen.c
+  UnityEngine.TextCoreFontEngineModule_CodeGen.c
+  UnityEngine.ParticleSystemModule.cpp
+  UnityEngine.XRModule_CodeGen.c
+  Unity.Mathematics_CodeGen.c
+  Il2CppCCWs__56.cpp
+  UnityEngine.InputModule.cpp
+  Microsoft.MixedReality.WebRTC.Unity.Examples.cpp
+  Il2CppCCWs__55.cpp
+  Unity.XR.OpenXR.Features.ConformanceAutomation.cpp
+  Il2CppCCWs__42.cpp
+  Il2CppCCWs__30.cpp
+  Il2CppCCWs__21.cpp
+  Il2CppCCWs__31.cpp
+  Il2CppCCWs__39.cpp
+  Il2CppCCWs__35.cpp
+  Il2CppCCWs__24.cpp
+  Il2CppCCWs__260.cpp
+  Il2CppCCWs__52.cpp
+  Il2CppCCWs__43.cpp
+  Il2CppCCWs__53.cpp
+  Il2CppCCWs__46.cpp
+  UnityEngine.AnimationModule_CodeGen.c
+  Il2CppCCWs__20.cpp
+  Il2CppCCWs__28.cpp
+  Il2CppCCWs__38.cpp
+  inflate.c
+  Il2CppCCWs__59.cpp
+  brotli_bit_stream.c
+  Il2CppCCWs__51.cpp
+  MixedReality.Toolkit.Accessibility_CodeGen.c
+  decode.c
+  Il2CppCCWs__50.cpp
+  encode.c
+  UnityEngine.SubsystemsModule_CodeGen.c
+  Il2CppCCWs__49.cpp
+  Il2CppCCWs__33.cpp
+  PhotonChat_CodeGen.c
+  Unity.Burst_CodeGen.c
+  Il2CppCCWs__40.cpp
+  trees.c
+  Il2CppCCWs__27.cpp
+  Il2CppCCWs__58.cpp
+  Il2CppCCWs__57.cpp
+  Unity.XR.OpenXR.Features.RuntimeDebugger.cpp
+  Il2CppCCWs__23.cpp
+  Il2CppCCWs__44.cpp
+  Il2CppCCWs__26.cpp
+  Il2CppCCWs__47.cpp
+  Il2CppCCWs__34.cpp
+  Il2CppCCWs__25.cpp
+  Il2CppCCWs__48.cpp
+  Il2CppCCWs__32.cpp
+  Il2CppCCWs__41.cpp
+  Il2CppCCWs__54.cpp
+  Il2CppCCWs__85.cpp
+  Il2CppCCWs__87.cpp
+  Il2CppCCWs__86.cpp
+  Il2CppCCWs__88.cpp
+  Il2CppCCWs__82.cpp
+  il2cpp-mono-api.cpp
+  System.Configuration.cpp
+  Il2CppReversePInvokeWrapperTable.cpp
+  I18N_CodeGen.c
+  xamarin_getifaddrs.c
+  Il2CppCCWs__84.cpp
+  Il2CppCCWs__83.cpp
+  Il2CppCodeRegistration.cpp
+  I18N.West_CodeGen.c
+  UnityEngine.UIModule_CodeGen.c
+  UnityEngine.SharedInternalsModule_CodeGen.c
+  UnityEngine.AssetBundleModule.cpp
+  I18N.Other_CodeGen.c
+  UnityEngine.Physics2DModule_CodeGen.c
+  RealityCollective.Utilities_CodeGen.c
+  MixedReality.Toolkit.Diagnostics_CodeGen.c
+  Unity.XR.Management_CodeGen.c
+  UnityEngine.UnityWebRequestModule_CodeGen.c
+  UnityEngine.InputLegacyModule_CodeGen.c
+  infback.c
+  MixedReality.Toolkit.Speech.Windows_CodeGen.c
+  UnityEngine.JSONSerializeModule.cpp
+  UnityEngine.TextRenderingModule_CodeGen.c
+  UnityEngine.VRModule.cpp
+  crc32.c
+  Unity.XR.OpenXR.Features.MockRuntime_CodeGen.c
+  gzwrite.c
+  gzread.c
+  gzlib.c
+  UnityEngine.AudioModule_CodeGen.c
+  System.Runtime.WindowsRuntime.UI.Xaml.cpp
+  backward_references_hq.c
+  UnityEngine.DirectorModule.cpp
+  metablock.c
+  inffast.c
+  I18N.MidEast_CodeGen.c
+  entropy_encode.c
+  UnityEngine.SpatialTracking_CodeGen.c
+  Unity.XR.OpenXR.Features.MetaQuestSupport.cpp
+  UnityEngine.ParticleSystemModule_CodeGen.c
+  context.c
+  il2cpp-api.cpp
+  UnityEngine.VFXModule_CodeGen.c
+  UnityEngine.TilemapModule_CodeGen.c
+  huffman.c
+  UnityEngine.TerrainModule_CodeGen.c
+  inftrees.c
+  Il2CppCCalculateFieldValues4.cpp
+  Unity.XR.OpenXR.Features.ConformanceAutomation_CodeGen.c
+  System.Configuration_CodeGen.c
+  UnityEngine.VideoModule_CodeGen.c
+  System.Runtime.Serialization.cpp
+  zutil.c
+  transform.c
+  UnityEngine.AIModule.cpp
+  Unity.XR.OpenXR.Features.OculusQuestSupport.cpp
+  UnityEngine.ImageConversionModule.cpp
+  UnityEngine.UnityAnalyticsModule_CodeGen.c
+  UnityEngine.InputModule_CodeGen.c
+  static_dict.c
+  fast_log.c
+  System.Net.Http__1.cpp
+  memory.c
+  UnityEngine.JSONSerializeModule_CodeGen.c
+  uncompr.c
+  literal_cost.c
+  UnityEngine.VRModule_CodeGen.c
+  Unity.XR.OpenXR.Features.RuntimeDebugger_CodeGen.c
+  state.c
+  UnityAdsStubs.cpp
+  compress_fragment_two_pass.c
+  UnityEngine.SpriteShapeModule.cpp
+  adler32.c
+  System.Runtime.WindowsRuntime.UI.Xaml_CodeGen.c
+  UnityEngine.GridModule.cpp
+  Microsoft.MixedReality.WebRTC.Unity.Examples_CodeGen.c
+  utf8_util.c
+  bit_reader.c
+  compress_fragment.c
+  System.Runtime.Serialization_CodeGen.c
+  krait_signal_handler.c
+  histogram.c
+  UnityEngine.ImageConversionModule_CodeGen.c
+  UnityEngine.DirectorModule_CodeGen.c
+  block_splitter.c
+  Il2CppMetadataRegistration.c
+  UnityEngine.AIModule_CodeGen.c
+  Unity.XR.OpenXR.Features.MetaQuestSupport_CodeGen.c
+  System.Dynamic.Runtime.cpp
+  UnityEngine.GridModule_CodeGen.c
+  System.Diagnostics.Tracing.cpp
+  netstandard.cpp
+  Unity.XR.OpenXR.Features.OculusQuestSupport_CodeGen.c
+  System.Collections.cpp
+  System.IO.Compression.cpp
+  System.Diagnostics.Debug.cpp
+  System.Globalization.cpp
+  System.IO.FileSystem.cpp
+  System.IO.cpp
+  System.IO.FileSystem.Primitives.cpp
+  System.ComponentModel.TypeConverter.cpp
+  cluster.c
+  System.Linq.cpp
+  command.c
+  System.Linq.Expressions.cpp
+  System.Numerics.Vectors.cpp
+  System.Net.Primitives.cpp
+  encoder_dict.c
+  System.ObjectModel.cpp
+  bit_cost.c
+  System.Reflection.cpp
+  System.Reflection.Extensions.cpp
+  System.Runtime.Extensions.cpp
+  System.Reflection.Primitives.cpp
+  System.Runtime.InteropServices.cpp
+  System.Runtime.cpp
+  System.Runtime.Numerics.cpp
+  System.Runtime.Handles.cpp
+  System.Runtime.Serialization.Formatters.cpp
+  System.Runtime.InteropServices.WindowsRuntime.cpp
+  System.Runtime.Serialization.Primitives.cpp
+  System.Threading.cpp
+  System.Threading.Tasks.cpp
+  System.Security.Cryptography.Primitives.cpp
+  System.Security.Cryptography.Algorithms.cpp
+  System.Text.Encoding.cpp
+  System.Text.RegularExpressions.cpp
+  backward_references.c
+  System.Text.Encoding.Extensions.cpp
+  System.Threading.Timer.cpp
+  Lump_libil2cpp_vm-utils.cpp
+  System.Xml.XDocument.cpp
+  Lump_libil2cpp_utils.cpp
+  System.Xml.ReaderWriter.cpp
+  System.Xml.XmlDocument.cpp
+  Lump_libil2cpp_gc.cpp
+  UnityEngine.cpp
+  System.Linq.Expressions_CodeGen.c
+  constants.c
+  il2cpp-benchmark-support.cpp
+  System.IO.FileSystem.Primitives_CodeGen.c
+  System.Runtime.Serialization.Formatters_CodeGen.c
+  System.ComponentModel.TypeConverter_CodeGen.c
+  gzclose.c
+  System.Reflection.Primitives_CodeGen.c
+  Lump_libil2cpp_metadata.cpp
+  System.Security.Cryptography.Primitives_CodeGen.c
+  System.Runtime.InteropServices.WindowsRuntime_CodeGen.c
+  System.Runtime.Serialization.Primitives_CodeGen.c
+  UnityEngine.AssetBundleModule_CodeGen.c
+  System.Text.Encoding.Extensions_CodeGen.c
+  UnityEngine.SpriteShapeModule_CodeGen.c
+  System.Diagnostics.Tracing_CodeGen.c
+  System.Text.RegularExpressions_CodeGen.c
+  System.Runtime.Extensions_CodeGen.c
+  System.Runtime.InteropServices_CodeGen.c
+  platform.c
+  System.Diagnostics.Debug_CodeGen.c
+  System.Security.Cryptography.Algorithms_CodeGen.c
+  System.Reflection.Extensions_CodeGen.c
+  System.Runtime.Numerics_CodeGen.c
+  System.Numerics.Vectors_CodeGen.c
+  System.Xml.ReaderWriter_CodeGen.c
+  gc.c
+  Lump_libil2cpp_mono.cpp
+  Lump_libil2cpp_icalls.cpp
+  System.ObjectModel_CodeGen.c
+  System.Globalization_CodeGen.c
+  System.Runtime.Handles_CodeGen.c
+  System.Threading_CodeGen.c
+  System.Net.Primitives_CodeGen.c
+  System.Runtime_CodeGen.c
+  System.Threading.Tasks_CodeGen.c
+  System.Dynamic.Runtime_CodeGen.c
+  System.IO.FileSystem_CodeGen.c
+  System.IO.Compression_CodeGen.c
+  System.Linq_CodeGen.c
+  System.Xml.XDocument_CodeGen.c
+  System.Xml.XmlDocument_CodeGen.c
+  netstandard_CodeGen.c
+  System.Collections_CodeGen.c
+  System.Threading.Timer_CodeGen.c
+  System.Reflection_CodeGen.c
+  System.Text.Encoding_CodeGen.c
+  System.IO_CodeGen.c
+  UnityEngine_CodeGen.c
+  Lump_libil2cpp_debugger.cpp
+  il2cpp-runtime-stats.cpp
+  Lump_libil2cpp_codegen.cpp
+  Lump_libil2cpp_os.cpp
+  Lump_libil2cpp_vm.cpp
+  ObjectFiles: 903 of which compiled: 903
+  	Time Compile: 15649 milliseconds Generics.cpp
+  	Time Compile: 12501 milliseconds Generics__1.cpp
+  	Time Compile: 8932 milliseconds Il2CppCCWs__182.cpp
+  	Time Compile: 7998 milliseconds Il2CppPCCWMethods.cpp
+  	Time Compile: 6292 milliseconds Il2CppCCWs__181.cpp
+  	Time Compile: 6200 milliseconds Unity.TextMeshPro__4.cpp
+  	Time Compile: 6132 milliseconds System__3.cpp
+  	Time Compile: 6019 milliseconds Il2CppInvokerTable.cpp
+  	Time Compile: 5836 milliseconds Generics__33.cpp
+  	Time Compile: 5737 milliseconds Unity.TextMeshPro__1.cpp
+  Total compilation time: 47659 milliseconds.
+  C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\build\obj\il2cppOutputProject\ARM64\Master\linkresult_2494B0CABB6129852EA6F1641A8B5126\GameAssembly.lib ���̺귯�� �� C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\build\obj\il2cppOutputProject\ARM64\Master\linkresult_2494B0CABB6129852EA6F1641A8B5126\GameAssembly.exp ��ü�� �����ϰ� �ֽ��ϴ�.
+  Total link time: 10293 milliseconds.
+  Cleaned up 1 object files.

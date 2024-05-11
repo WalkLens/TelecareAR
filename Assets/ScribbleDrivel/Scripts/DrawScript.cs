@@ -440,7 +440,7 @@ namespace LylekGames
             Debug.Log("Screen height : " + Screen.height);
             // 스크린샷 캡쳐
             Texture2D screenShot = new Texture2D((int)ourRect.width, (int)ourRect.height, TextureFormat.RGB24, false);
-            screenShot.ReadPixels(new Rect(ourRect.x , ourRect.y - 89.5f, ourRect.width, ourRect.height), 0, 0);
+            screenShot.ReadPixels(new Rect(ourRect.x + 1f , ourRect.y - 108.5f, ourRect.width, ourRect.height), 0, 0);
             screenShot.Apply();
             // Texture2D screenShot = new Texture2D (width, height, TextureFormat.RGB24, false);
             // screenShot.ReadPixels (new Rect(startX, startY, width, height), 0, 0);
@@ -450,7 +450,7 @@ namespace LylekGames
             byte[] bytes = screenShot.EncodeToPNG();
             string savepath = "Assets/ScribbleDrivel/Resources/" + savePath + saveimgcnt.ToString();
             System.IO.File.WriteAllBytes(savepath + ".png", bytes);
-            UnityEditor.AssetDatabase.Refresh();
+            //UnityEditor.AssetDatabase.Refresh();
             
             //Reset canvas space
             // if (worldCan)

@@ -79,7 +79,7 @@ namespace LylekGames
             byte[] bytes = screenShot.EncodeToPNG();
             string savepath = "Assets/ScribbleDrivel/Resources/" + savePath + ".png";
             System.IO.File.WriteAllBytes("Assets/ScribbleDrivel/Resources/" + savePath + ".png", bytes);
-            UnityEditor.AssetDatabase.Refresh();
+            //UnityEditor.AssetDatabase.Refresh();
 
             Debug.Log("Image saved.");
 

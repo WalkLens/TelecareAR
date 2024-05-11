@@ -5,9 +5,12 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/VideoChatDemo.unity
     guid: ab6b69d3b47518b408b2641d16b258a6
+  - enabled: 1
+    path: Assets/Scenes/Hololens_tele.unity
+    guid: cea66fd4805d7944abb7c1565986313e
   m_configObjects:
     com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 8f0296d1dbc94154ebcfbd1816f52ff5, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 3fe4884a34c808a4e9be1918722394b5, type: 2}
