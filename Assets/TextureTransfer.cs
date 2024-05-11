@@ -10,6 +10,8 @@ public class TextureTransfer : MonoBehaviour
     public Renderer sourceRenderer; // 소스 Material이 변경되고 있는 Mesh Renderer
     public Renderer targetRenderer; // 타겟 Renderer 오브젝트
 
+    //public SpriteRenderer sRenderer;
+
     // 버튼 클릭에 의해 호출될 메서드
     public void TransferTexture()
     {
@@ -36,7 +38,11 @@ public class TextureTransfer : MonoBehaviour
         // 타겟 오브젝트에 새 텍스처 설정
         //targetRenderer.material.mainTexture = newTexture;
         //Texture2D tex2D = (tex as Texture2D);
-        Rect rect = new Rect(0, 0, newTexture.width, newTexture.height);
-        whiteboardImage.GetComponent<Image>().sprite = Sprite.Create(newTexture, rect, new Vector2(0.5f, 0.5f));
+        Rect rect = new Rect(0,1, newTexture.width, -newTexture.height);
+        // sRenderer = this.GetComponent<SpriteRenderer>();
+        // sRenderer.sprite = Sprite.Create(newTexture, rect, new Vector2(0.5f, 0.5f), 100.0f);
+        // sRenderer.flipY = true;
+        whiteboardImage.GetComponent<Image>().sprite = Sprite.Create(newTexture, rect, new Vector2(0.5f, 0.5f), 100.0f);
+        //whiteboardImage.GetComponent<Image>().sprite = sRenderer.sprite;
     }
 }
