@@ -3148,7 +3148,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1154289875}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 632.21893, y: 283.12817, z: 0}
+  m_LocalPosition: {x: 630.72, y: 282.51, z: 0}
   m_LocalScale: {x: 6.0928493, y: 6.0928493, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4154,15 +4154,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114308467381792828, guid: 2979945fe26b85f4fa74f15b674c1e7f, type: 3}
       propertyPath: m_Color.b
-      value: 0.21960786
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114308467381792828, guid: 2979945fe26b85f4fa74f15b674c1e7f, type: 3}
       propertyPath: m_Color.g
-      value: 0.21960786
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114308467381792828, guid: 2979945fe26b85f4fa74f15b674c1e7f, type: 3}
       propertyPath: m_Color.r
-      value: 0.21960786
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114394848522820414, guid: 2979945fe26b85f4fa74f15b674c1e7f, type: 3}
       propertyPath: wbc
@@ -7071,7 +7071,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.486, y: 0.471}
+  m_AnchoredPosition: {x: 0.486, y: 0.385}
   m_SizeDelta: {x: 500, y: 10}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &2981115260991272961
