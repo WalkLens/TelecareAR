@@ -79,13 +79,13 @@ public class WhiteBoardController : MonoBehaviour
         }
     }
 
-    public void SetVideoCaptureImage()
-    {
-        //var VR = new VideoRenderer();
-        //Texture2D texture2D = VideoRenderer.VR.GetArgb32Texture();
-        //Texture2D texture2D = VideoRenderer.GetArgb32Texture();
-        //Rect rect = new Rect(0, 0, texture2D.width, texture2D.height);
-        //whiteboardImage.GetComponent<Image>().sprite = Sprite.Create(texture2D, rect, new Vector2(0.5f, 0.5f));
-    }
+    // public void SetVideoCaptureImage()
+    // {
+    //     //var VR = new VideoRenderer();
+    //     Texture2D texture2D = VideoRenderer.VR.GetArgb32Texture();
+    //     //Texture2D texture2D = VideoRenderer.GetArgb32Texture();
+    //     Rect rect = new Rect(0, 0, texture2D.width, texture2D.height);
+    //     whiteboardImage.GetComponent<Image>().sprite = Sprite.Create(texture2D, rect, new Vector2(0.5f, 0.5f));
+    // }
 }
 
