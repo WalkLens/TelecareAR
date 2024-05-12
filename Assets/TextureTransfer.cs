@@ -40,4 +40,32 @@ public class TextureTransfer : MonoBehaviour
         whiteboardImage.GetComponent<Image>().sprite = Sprite.Create(newTexture, rect, new Vector2(0, 0));
         
     }
+    void TransferTexture1() {
+        // RenderTexture 생성
+        RenderTexture renderTexture = new RenderTexture(1920, 1080, 24);
+        sourceRenderer.material.SetPass(0);
+        Graphics.Blit(null, renderTexture, sourceRenderer.material);
+
+        // RenderTexture에서 Texture2D로 변환
+        Texture2D texture2D = RenderTextureToTexture2D(renderTexture);
+
+        // Texture2D에서 Sprite 생성
+        Sprite newSprite = Texture2DToSprite(texture2D);
+
+        // Image 컴포넌트에 새로운 Sprite 적용
+        whiteboardImage.sprite = newSprite;
+    }
+
+    Texture2D RenderTextureToTexture2D(RenderTexture rTex) {
+        Texture2D tex = new Texture2D(rTex.width, rTex.height, TextureFormat.RGBA32, false);
+        RenderTexture.active = rTex;
+        tex.ReadPixels(new Rect(0, 0, rTex.width, rTex.height), 0, 0);
+        tex.Apply();
+        RenderTexture.active = null; // RenderTexture를 더 이상 사용하지 않으므로 해제
+        return tex;
+    }
+
+    Sprite Texture2DToSprite(Texture2D tex) {
+        return Sprite.Create(tex, new Rect(0, 0, tex.width, tex.height), new Vector2(0.5f, 0.5f));
+    }
 }
