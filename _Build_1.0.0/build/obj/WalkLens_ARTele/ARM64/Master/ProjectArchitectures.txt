@@ -1,1 +1,0 @@
-C:\Users\snuh_cmti\Documents\GitHub\TelecareAR\_Build_1.0.0\WalkLens_ARTele\WalkLens_ARTele.vcxproj;arm64
