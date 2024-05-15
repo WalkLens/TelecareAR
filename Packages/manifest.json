@@ -17,6 +17,8 @@
     "com.microsoft.azure.spatial-anchors-sdk.core": "file:MixedReality/com.microsoft.azure.spatial-anchors-sdk.core-2.14.1.tgz",
     "com.microsoft.azure.spatial-anchors-sdk.windows": "file:MixedReality/com.microsoft.azure.spatial-anchors-sdk.windows-2.14.1.tgz",
     "com.microsoft.mixedreality.openxr": "file:MixedReality/com.microsoft.mixedreality.openxr-1.9.0.tgz",
+    "com.microsoft.mixedreality.webrtc": "file:MixedReality/com.microsoft.mixedreality.webrtc-2.0.2.tgz",
+    "com.microsoft.mixedreality.webrtc.samples": "file:MixedReality/com.microsoft.mixedreality.webrtc.samples-2.0.2.tgz",
     "com.microsoft.mrtk.graphicstools.unity": "file:MixedReality/com.microsoft.mrtk.graphicstools.unity-0.6.2.tgz",
     "com.microsoft.mrtk.tts.windows": "file:MixedReality/com.microsoft.mrtk.tts.windows-1.0.1.tgz",
     "com.realitycollective.service-framework": "https://github.com/ujinilee/com.realitycollective.service-framework.git",
