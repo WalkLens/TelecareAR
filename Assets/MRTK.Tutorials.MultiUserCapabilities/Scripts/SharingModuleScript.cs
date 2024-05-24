@@ -1,12 +1,10 @@
-﻿using Microsoft.Azure.SpatialAnchors;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace MRTK.Tutorials.MultiUserCapabilities
 {
     public class SharingModuleScript : MonoBehaviour
     {
         private AnchorModuleScript anchorModuleScript;
-        private CloudSpatialAnchor currentCloudAnchor;
 
         private void Start()
         {
@@ -17,7 +15,7 @@ namespace MRTK.Tutorials.MultiUserCapabilities
         {
             Debug.Log("\nSharingModuleScript.ShareAzureAnchor()");
 
-            GenericNetworkManager.Instance.azureAnchorId = currentCloudAnchor.Identifier;
+            GenericNetworkManager.Instance.azureAnchorId = anchorModuleScript.CurrentAzureAnchorID;
             Debug.Log("GenericNetworkManager.Instance.azureAnchorId: " + GenericNetworkManager.Instance.azureAnchorId);
 
             var pvLocalUser = GenericNetworkManager.Instance.localUser.gameObject;

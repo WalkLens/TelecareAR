@@ -1,18 +1,15 @@
 ﻿using System;
 
-using UnityEngine;
-using UnityEngine.XR.Interaction.Toolkit;
 using Photon.Pun;
 using Photon.Realtime;
-
+using UnityEngine;
+using UnityEngine.XR.Interaction.Toolkit;
 
 namespace MRTK.Tutorials.MultiUserCapabilities
 {
     [RequireComponent(typeof(PhotonView), typeof(GenericNetSync))]
     public class OwnershipHandler : MonoBehaviourPun, IPunOwnershipCallbacks
     {
-        //private MRTKBaseInteractable mrtkInteractable = new MRTKBaseInteractable();
-
         public void OnInputDown(SelectEnterEventArgs eventData)
         {
             photonView.RequestOwnership();
@@ -21,7 +18,6 @@ namespace MRTK.Tutorials.MultiUserCapabilities
         public void OnInputUp(SelectEnterEventArgs eventData)
         {
         }
-        
 
         public void OnOwnershipRequest(PhotonView targetView, Player requestingPlayer)
         {

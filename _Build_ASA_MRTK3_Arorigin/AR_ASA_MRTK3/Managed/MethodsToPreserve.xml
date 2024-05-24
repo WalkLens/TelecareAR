@@ -1,0 +1,60 @@
+<linker>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="AnchorModuleScript">
+			<method name="CreateAzureAnchor"/>
+			<method name="DeleteAzureAnchor"/>
+			<method name="FindAzureAnchor"/>
+			<method name="RemoveLocalAnchor"/>
+			<method name="StartAzureSession"/>
+			<method name="StartAzureSession"/>
+		</type>
+		<type fullname="MRTK.Tutorials.GettingStarted.ExplodeViewController">
+			<method name="ToggleExplodedView"/>
+			<method name="ToggleExplodedView"/>
+		</type>
+		<type fullname="MRTK.Tutorials.GettingStarted.PartAssemblyController">
+			<method name="ResetPlacement"/>
+			<method name="ResetPlacement"/>
+		</type>
+		<type fullname="MRTK.Tutorials.GettingStarted.PlacementHintsController">
+			<method name="TogglePlacementHints"/>
+			<method name="TogglePlacementHints"/>
+		</type>
+		<type fullname="MRTK.Tutorials.MultiUserCapabilities.SharingModuleScript">
+			<method name="GetAzureAnchor"/>
+			<method name="ShareAzureAnchor"/>
+		</type>
+	</assembly>
+	<assembly fullname="UnityEngine.AudioModule" ignoreIfMissing="1">
+		<type fullname="UnityEngine.AudioSource">
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+		</type>
+	</assembly>
+	<assembly fullname="UnityEngine.CoreModule" ignoreIfMissing="1">
+		<type fullname="UnityEngine.Behaviour">
+			<method name="set_enabled"/>
+			<method name="set_enabled"/>
+		</type>
+	</assembly>
+</linker>
