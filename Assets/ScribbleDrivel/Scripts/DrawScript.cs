@@ -13,6 +13,9 @@ namespace LylekGames
         [Header("Optimization")]
         public bool optimize;
 
+        public RectTransform uiElement;
+        public Camera uiCamera;
+
         [Header("Components")]
         public Canvas canvas;
         public GameObject brushPrefab;
@@ -21,8 +24,10 @@ namespace LylekGames
 
         [Header("Settings")]
         public Color brushColor = Color.black;
-        [Range(0.01f, 1.0f)]
-        public float brushSize = 0.04f;
+        [Range(3.0f, 5.0f)]
+        public float brushSize = 3.1f;
+
+        public float brushpointerSize = 1.0f;
         [Range(0.1f, 1.0f)]
         public float spacing = 0.25f;
 
@@ -79,7 +84,7 @@ namespace LylekGames
                 if (transform.root.gameObject.GetComponent<Canvas>())
                     canvas = transform.root.gameObject.GetComponent<Canvas>();
             brushColor = Color.black;
-            brushSize = 0.04f;
+            brushSize = 3.1f;
             spacing = 0.25f;
             previousMousePosition = Vector3.zero;
             canDraw = false;
@@ -140,7 +145,9 @@ namespace LylekGames
         public void SetBrushSize(float bSize)
         {
             brushSize = bSize;
-            Vector2 newBrushSize = new Vector2(brushSize, brushSize);
+            // Vector2 newBrushSize = new Vector2(brushSize, brushSize);
+            // brush.rectTransform.sizeDelta = newBrushSize;
+            Vector2 newBrushSize = new Vector2(0.25f, 0.25f);
             brush.rectTransform.sizeDelta = newBrushSize;
         }
         public void SetBrushColor(Color bColor)
@@ -299,6 +306,9 @@ namespace LylekGames
         {
             GameObject newDot = Instantiate(brush.gameObject) as GameObject;
             newDot.transform.position = pos;
+            // 점의 크기를 설정 (brushSize 사용)
+            RectTransform newDotRectTransform = newDot.GetComponent<RectTransform>();
+            newDotRectTransform.sizeDelta = new Vector2(brushSize, brushSize);
             newDot.SetActive(true);
             newDot.transform.SetParent(dotField.transform, true);
         }
@@ -407,56 +417,49 @@ namespace LylekGames
             //Wait For End This Of Frame
             yield return new WaitForEndOfFrame();
 
+
+         
             //Calculate Our Image Dimensions
-            // Vector3[] ourCoordinates = new Vector3[4];
-            // ourImage.rectTransform.GetWorldCorners(ourCoordinates);
-            // Vector3[] canvasCoordinates = new Vector3[4];
-            // canvas.GetComponent<RectTransform>().GetWorldCorners(canvasCoordinates);
-            // float posX = ourCoordinates[0].x / canvasCoordinates[3].x;
-            // float posY = ourCoordinates[0].y / canvasCoordinates[1].y;
-            // float posW = (ourCoordinates[3].x - ourCoordinates[0].x) / canvasCoordinates[3].x;
-            // float posH = (ourCoordinates[1].y - ourCoordinates[0].y) / canvasCoordinates[1].y;
-
-            // Vector2 actualPos = new Vector2(posX * Screen.width, posY * Screen.height);
-            // Vector2 actualSize = new Vector2(posW * Screen.width, posH * Screen.height);
-            
-            // //Take A Screenshot
-            // Texture2D screenShot = new Texture2D((int)actualSize.x, (int)actualSize.y, TextureFormat.RGB24, false);
-            // screenShot.ReadPixels(new Rect(actualPos.x + 1, actualPos.y + 1, (int)actualSize.x, (int)actualSize.y), 0, 0);
-            // screenShot.Apply();
-
             Vector3[] ourCoordinates = new Vector3[4];
             ourImage.rectTransform.GetWorldCorners(ourCoordinates);
             Vector3[] canvasCoordinates = new Vector3[4];
             canvas.GetComponent<RectTransform>().GetWorldCorners(canvasCoordinates);
+            float posX = ourCoordinates[0].x / canvasCoordinates[3].x;
+            float posY = ourCoordinates[0].y / canvasCoordinates[1].y;
+            float posW = (ourCoordinates[3].x - ourCoordinates[0].x) / canvasCoordinates[3].x;
+            float posH = (ourCoordinates[1].y - ourCoordinates[0].y) / canvasCoordinates[1].y;
 
-            // 월드 좌표를 스크린 좌표로 변환
-            Rect ourRect = new Rect(
-                Camera.main.WorldToScreenPoint(ourCoordinates[0]).x, 
-                Screen.height - Camera.main.WorldToScreenPoint(ourCoordinates[1]).y,
-                (Camera.main.WorldToScreenPoint(ourCoordinates[2]).x - Camera.main.WorldToScreenPoint(ourCoordinates[0]).x),
-                (Camera.main.WorldToScreenPoint(ourCoordinates[1]).y - Camera.main.WorldToScreenPoint(ourCoordinates[3]).y)
-            );
-            Debug.Log("Screen height : " + Screen.height);
-            // 스크린샷 캡쳐
-            Texture2D screenShot = new Texture2D((int)ourRect.width, (int)ourRect.height, TextureFormat.RGB24, false);
-            screenShot.ReadPixels(new Rect(ourRect.x + 1f , ourRect.y - 108.5f, ourRect.width, ourRect.height), 0, 0);
+            Vector2 actualPos = new Vector2(posX * Screen.width, posY * Screen.height);
+            Vector2 actualSize = new Vector2(posW * Screen.width, posH * Screen.height);
+            
+            //Take A Screenshot
+            Texture2D screenShot = new Texture2D((int)actualSize.x, (int)actualSize.y, TextureFormat.RGB24, false);
+            screenShot.ReadPixels(new Rect(actualPos.x + 1, actualPos.y + 1, (int)actualSize.x, (int)actualSize.y), 0, 0);
             screenShot.Apply();
-            // Texture2D screenShot = new Texture2D (width, height, TextureFormat.RGB24, false);
-            // screenShot.ReadPixels (new Rect(startX, startY, width, height), 0, 0);
-            // screenShot.Apply ();
 
-            //SAVE Screenshot To Project
+
+            // Vector3[] ourCoordinates = new Vector3[4];
+            // ourImage.rectTransform.GetWorldCorners(ourCoordinates);
+            // Vector3[] canvasCoordinates = new Vector3[4];
+            // canvas.GetComponent<RectTransform>().GetWorldCorners(canvasCoordinates);
+
+            // Rect ourRect = new Rect(
+            //     Camera.main.WorldToScreenPoint(ourCoordinates[0]).x, 
+            //     Screen.height - Camera.main.WorldToScreenPoint(ourCoordinates[1]).y,
+            //     (Camera.main.WorldToScreenPoint(ourCoordinates[2]).x - Camera.main.WorldToScreenPoint(ourCoordinates[0]).x),
+            //     (Camera.main.WorldToScreenPoint(ourCoordinates[1]).y - Camera.main.WorldToScreenPoint(ourCoordinates[3]).y)
+            // );
+            // Debug.Log("Screen height : " + Screen.height);
+
+            // Texture2D screenShot = new Texture2D((int)ourRect.width, (int)ourRect.height, TextureFormat.RGB24, false);
+            // screenShot.ReadPixels(new Rect(ourRect.x + 1f , ourRect.y - 108.5f, ourRect.width, ourRect.height), 0, 0);
+            // screenShot.Apply();
+
             byte[] bytes = screenShot.EncodeToPNG();
             string savepath = "Assets/ScribbleDrivel/Resources/" + savePath + saveimgcnt.ToString();
             System.IO.File.WriteAllBytes(savepath + ".png", bytes);
-            //UnityEditor.AssetDatabase.Refresh();
-            
-            //Reset canvas space
-            // if (worldCan)
-            //     canvas.renderMode = RenderMode.WorldSpace;
+            UnityEditor.AssetDatabase.Refresh();
 
-            //Re-Enable Our Brush
             if (canDraw)
                 brush.gameObject.SetActive(true);
 
