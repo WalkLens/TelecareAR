@@ -145,8 +145,6 @@ namespace LylekGames
         public void SetBrushSize(float bSize)
         {
             brushSize = bSize;
-            // Vector2 newBrushSize = new Vector2(brushSize, brushSize);
-            // brush.rectTransform.sizeDelta = newBrushSize;
             Vector2 newBrushSize = new Vector2(0.25f, 0.25f);
             brush.rectTransform.sizeDelta = newBrushSize;
         }
