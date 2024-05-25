@@ -9,6 +9,8 @@ using Photon.Chat;
 using Photon.Realtime;
 using AuthenticationValues = Photon.Chat.AuthenticationValues;
 using TMPro;
+using System.Linq;
+
 
 #if PHOTON_UNITY_NETWORKING
 using Photon.Pun;
@@ -24,6 +26,10 @@ public class PhotonChatManager : MonoBehaviour, IChatClientListener
     public int HistoryLengthToFetch; // set in inspector. Up to a certain degree, previously sent messages can be fetched for context
 
     public string UserName { get; set; }
+
+    [SerializeField] private ChattingItem _chattingItem;
+    [SerializeField] private RectTransform _chatScrollParent;
+    private List<ChattingItem> _chattingItemList = new();
 
     private string selectedChannelName; // mainly used for GUI/input
 
@@ -112,7 +118,7 @@ public class PhotonChatManager : MonoBehaviour, IChatClientListener
         //this.ChannelToggleToInstantiate.gameObject.SetActive(false);
         Debug.Log("Connecting as: " + this.UserName);
 
-        CurrentChannelText.text = "Connecting...";
+        //CurrentChannelText.text = "Connecting...";
     }
 
     /// <summary>To avoid that the Editor becomes unresponsive, disconnect all Photon connections in OnDestroy.</summary>
@@ -287,7 +293,7 @@ public class PhotonChatManager : MonoBehaviour, IChatClientListener
 
     public void PostHelpToCurrentChannel()
     {
-        this.CurrentChannelText.text += HelpText;
+        //this.CurrentChannelText.text += HelpText;
     }
 
     public void DebugReturn(ExitGames.Client.Photon.DebugLevel level, string message)
@@ -308,7 +314,7 @@ public class PhotonChatManager : MonoBehaviour, IChatClientListener
 
     public void OnConnected()
     {
-        CurrentChannelText.text = string.Empty;
+        //CurrentChannelText.text = string.Empty;
 
         if (this.ChannelsToJoinOnConnect != null && this.ChannelsToJoinOnConnect.Length > 0)
             this.chatClient.Subscribe(this.ChannelsToJoinOnConnect, this.HistoryLengthToFetch);
@@ -466,7 +472,23 @@ public class PhotonChatManager : MonoBehaviour, IChatClientListener
         }
 
         this.selectedChannelName = channelName;
-        this.CurrentChannelText.text = channel.ToStringMessages();
+        //this.CurrentChannelText.text = channel.ToStringMessages();
+        Debug.Log($"Final");
+
+        _chattingItemList.ForEach((item) => Destroy(item.gameObject));
+        _chattingItemList.Clear();
+
+        for (int i = 0; i < channel.Messages.Count; i++)
+        {
+            string msg = $"{channel.Senders[i]} : {channel.Messages[i]}";
+            var chat = Instantiate(_chattingItem, _chatScrollParent);
+            chat.SetText(msg);
+            _chattingItemList.Add(chat);
+        }
+        foreach (var item in channel.Messages)
+        {
+        }
+
         Debug.Log("ShowChannel: " + this.selectedChannelName);
 
         foreach (KeyValuePair<string, Toggle> pair in this.channelToggles)
