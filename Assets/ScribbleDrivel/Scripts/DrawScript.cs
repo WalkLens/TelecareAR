@@ -145,8 +145,8 @@ namespace LylekGames
         public void SetBrushSize(float bSize)
         {
             brushSize = bSize;
-            Vector2 newBrushSize = new Vector2(0.25f, 0.25f);
-            brush.rectTransform.sizeDelta = newBrushSize;
+            // Vector2 newBrushSize = new Vector2(0.25f, 0.25f);
+            // brush.rectTransform.sizeDelta = newBrushSize;
         }
         public void SetBrushColor(Color bColor)
         {
@@ -305,8 +305,8 @@ namespace LylekGames
             GameObject newDot = Instantiate(brush.gameObject) as GameObject;
             newDot.transform.position = pos;
             // 점의 크기를 설정 (brushSize 사용)
-            RectTransform newDotRectTransform = newDot.GetComponent<RectTransform>();
-            newDotRectTransform.sizeDelta = new Vector2(brushSize, brushSize);
+            // RectTransform newDotRectTransform = newDot.GetComponent<RectTransform>();
+            // newDotRectTransform.sizeDelta = new Vector2(brushSize, brushSize);
             newDot.SetActive(true);
             newDot.transform.SetParent(dotField.transform, true);
         }
