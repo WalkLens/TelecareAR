@@ -20,7 +20,7 @@ using Photon.Chat.Demo;
 public class PhotonChatManager : MonoBehaviour, IChatClientListener
 {
 
-    public string[] ChannelsToJoinOnConnect; // set in inspector. Demo channels to join automatically.
+    public readonly string ChannelsToJoinOnConnect = "WalkLens"; // set in inspector. Demo channels to join automatically.
 
 
     public int HistoryLengthToFetch; // set in inspector. Up to a certain degree, previously sent messages can be fetched for context
