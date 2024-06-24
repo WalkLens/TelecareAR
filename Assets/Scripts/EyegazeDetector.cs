@@ -2,6 +2,7 @@ using UnityEngine;
 using MixedReality.Toolkit;
 using Photon.Pun;
 using MRTK.Tutorials.MultiUserCapabilities;
+using RealityCollective.Extensions;
 
 public class EyegazeDetector : MonoBehaviour
 {
@@ -31,7 +32,7 @@ public class EyegazeDetector : MonoBehaviour
                 PhotonUser photonUserInfo = hit.collider.GetComponent<PhotonUser>();
                 Vector3 hitPoint = hit.point;
                 hitPoint.y += yOffset;
-                photonInfoUISample = Instantiate(photonInfoUI, hitPoint, Quaternion.identity);
+                photonInfoUISample.SetActive(true);
                 photonInfoUISample.mainText.text = photonUserInfo.GetNickName();
                 isUIActivated = true;
             }
@@ -40,7 +41,7 @@ public class EyegazeDetector : MonoBehaviour
         {
             if (!Physics.Raycast(ray, out hit, Mathf.Infinity, layerMask))
             {
-                Destroy(photonInfoUI);
+                photonInfoUISample.SetActive(false);
                 isUIActivated = false;
             }
         }
