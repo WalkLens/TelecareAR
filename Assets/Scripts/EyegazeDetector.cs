@@ -6,10 +6,7 @@ using RealityCollective.Extensions;
 
 public class EyegazeDetector : MonoBehaviour
 {
-    public EyegazeUIManager photonInfoUI;
-    public float yOffset = 0;
     private GameObject photonUser;
-    private EyegazeUIManager photonInfoUISample;
     private bool isUIActivated = false;
 
     private void Start()
@@ -29,11 +26,7 @@ public class EyegazeDetector : MonoBehaviour
         {
             if (Physics.Raycast(ray, out hit, Mathf.Infinity, layerMask))
             {
-                PhotonUser photonUserInfo = hit.collider.GetComponent<PhotonUser>();
-                Vector3 hitPoint = hit.point;
-                hitPoint.y += yOffset;
-                photonInfoUISample.SetActive(true);
-                photonInfoUISample.mainText.text = photonUserInfo.GetNickName();
+                EyegazeUIManager.main.ActivateEyegazeUI(hit);
                 isUIActivated = true;
             }
         }
@@ -41,7 +34,7 @@ public class EyegazeDetector : MonoBehaviour
         {
             if (!Physics.Raycast(ray, out hit, Mathf.Infinity, layerMask))
             {
-                photonInfoUISample.SetActive(false);
+                EyegazeUIManager.main.DeactivateEyegazeUI();
                 isUIActivated = false;
             }
         }
