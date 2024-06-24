@@ -49,6 +49,7 @@ MonoBehaviour:
   - RPC_AddChatMessage
   - RPC_AddHLChatMessage
   - RPC_AddPCChatMessage
+  - PunRPC_GetNickName
   DisableAutoOpenWizard: 1
   ShowSettings: 1
   DevRegionSetOnce: 1

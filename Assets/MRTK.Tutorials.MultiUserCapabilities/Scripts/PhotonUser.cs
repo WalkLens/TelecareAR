@@ -18,6 +18,11 @@ namespace MRTK.Tutorials.MultiUserCapabilities
             pv.RPC("PunRPC_SetNickName", RpcTarget.AllBuffered, username);
         }
 
+        public string GetNickName()
+        {
+            return gameObject.name;
+        }
+
         [PunRPC]
         private void PunRPC_SetNickName(string nName)
         {
